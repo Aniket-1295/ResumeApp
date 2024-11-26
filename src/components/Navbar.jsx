@@ -30,7 +30,7 @@ const Navbar = () => {
 
     const theme = useTheme();
 
-    const dark = theme.palette.primary.dark_;
+    const dark = theme.palette.neutral.dark;
   const background = theme.palette.background.default;
   const primaryDark = theme.palette.primary.dark;
   const primaryMain = theme.palette.primary.main;

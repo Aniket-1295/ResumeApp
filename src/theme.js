@@ -33,9 +33,9 @@ export const colorTokens = {
     200: "#00308F",
   },
   template2: {
-    50: " #FDFF86 ",
-    100: " #FFEE0D ",
-    200: " #FFD500 ",
+    50: "#FDFF86",
+    100: "#FFEE0D",
+    200: "#FFD500",
   },
   template3: {
     50: "#F8D6F7",
@@ -59,12 +59,11 @@ export const themeSettings = (mode) => {
             // palette values for dark mode
             primary: {
               dark: colorTokens.primary[900],
-              dark_: colorTokens.grey[100],
               main: colorTokens.primary[600],
               light: colorTokens.primary[800],
             },
             neutral: {
-              dark_: colorTokens.grey[100],
+              dark: colorTokens.grey[100],
               main: colorTokens.grey[200],
               mediumMain: colorTokens.grey[300],
               medium: colorTokens.grey[400],
