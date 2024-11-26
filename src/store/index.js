@@ -17,6 +17,7 @@ const initialState = {
     initialState,
     reducers:{
         setMode: (state) => {
+            state.mode = state.mode === "light" ? "dark" : "light";
            
           },
           setTemplate1: (state) => {
