@@ -28,7 +28,7 @@ const PersonalDetails = ({ onNext }) => {
       lastName: personalDetails.lastName,
       email: personalDetails.email,
       contactNo: personalDetails.contactNo,
-      address: personalDetails.address,
+      LinkedIn: personalDetails.address,
       city: personalDetails.city,
       pinCode: personalDetails.pinCode,
       specialization: personalDetails.specialization,
@@ -184,7 +184,7 @@ const PersonalDetails = ({ onNext }) => {
           }}
           render={({ field, fieldState }) => (
             <TextField
-              label="Address"
+              label="LinkedInID"
               {...field}
               margin="normal"
               fullWidth
@@ -215,8 +215,9 @@ const PersonalDetails = ({ onNext }) => {
               },
             }}
             render={({ field, fieldState }) => (
+                
               <TextField
-                label="City"
+                label="githubID"
                 {...field}
                 margin="normal"
                 fullWidth={isMobileScreen ? true : false}

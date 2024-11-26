@@ -3,10 +3,10 @@ import {
     Divider,
     Typography,
     useTheme,
-    List,
-    ListItem,
+    // List,
+    // ListItem,
   } from "@mui/material";
-  import UserData from "../dummydata";
+//   import UserData from "../dummydata";
   import { useSelector } from "react-redux";
   import { useRef } from "react";
   
@@ -55,7 +55,7 @@ import {
               {personalDetails.contactNo}
             </Typography>
             <Typography color={main}>
-              <span style={{ color: "black" }}>Address:</span>{" "}
+              <span style={{ color: "black" }}>LinkedIn:</span>{" "}
               {personalDetails.address},{personalDetails.city}
             </Typography>
           </Box>

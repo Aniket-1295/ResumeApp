@@ -8,7 +8,7 @@ import {
     Divider,
   } from "@mui/material";
 
-  import hero from "../assets/hero.svg";
+//   import hero from "../assets/hero.svg";
 
   import { template1, template2, template3, template4 } from "../assets";
 
@@ -164,15 +164,15 @@ const Home = () => {
           </Box>
         </Box>
 
-        <Box
+        {/* <Box
           width="100%"
           maxWidth="500px"
           display="flex"
           justifyContent="center"
           alignItems="center"
         >
-          <img src={hero} width="100%" height="auto" alt="img" />
-        </Box>
+          <img src='../assets/image.png' width="100%" height="auto" alt="img" />
+        </Box> */}
       </Box>
 
       <Divider />

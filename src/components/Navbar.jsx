@@ -66,7 +66,7 @@ const Navbar = () => {
             cursor: "pointer",
           }}
         >
-          ResumeXpress
+          ResumeBuilder
         </Typography>
       </Box>
 
